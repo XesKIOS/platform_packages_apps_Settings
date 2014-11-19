@@ -81,6 +81,12 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
+        <!-- XesKiOS version -->
+        <Preference android:key="xeski_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/xeski_version"
+                android:summary="@string/xeski_version_default" />
+
         <!-- Device firmware version -->
         <Preference android:key="firmware_version"
                 android:enabled="false"
